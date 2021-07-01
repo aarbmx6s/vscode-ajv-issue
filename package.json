@@ -1,0 +1,31 @@
+{
+  "name": "VSTEST",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/debug": "^4.1.6",
+    "@types/express": "^4.17.12",
+    "@types/node": "^15.12.5",
+    "@typescript-eslint/eslint-plugin": "^4.28.1",
+    "@typescript-eslint/parser": "^4.28.1",
+    "eslint": "^7.29.0",
+    "nodemon": "^2.0.9",
+    "ts-jest": "^27.0.3",
+    "ts-node": "^10.0.0"
+  },
+  "dependencies": {
+    "ajv": "^8.6.0",
+    "aws-sdk": "^2.937.0",
+    "debug": "^4.3.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "typescript": "^4.3.5"
+  }
+}
